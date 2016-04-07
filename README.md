@@ -7,6 +7,15 @@ IOS application that allows user to log in and track food carts in Klamath Falls
 Xcode
 
 <br>**Screenshots:**<br>
+<b>Home Page & Maps</b><br \><br \>
+<b>Qt solution</b><br \>
+![Alt text](/img/SHD1.PNG)
+<br \>
+
+<b>Screenshot of solution</b><br \><br \>
+<b>Loading Page & Profile</b><br \>
+![Alt text](/img/SHD2.PNG)
+<br \>
 
 
 
