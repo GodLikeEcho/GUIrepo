@@ -1,3 +1,5 @@
+#FoodCart Tracker
+
 Alt text
 Description: Cross platform playzone application for Chessgames.com that lets users play chess against one another across the world on iOS, Android and all major desktop platforms (Windows, OSX, Linux). Built from entirely from scratch using C++ and the Qt framework. http://www.cgplayzone.com
 
@@ -41,26 +43,22 @@ At the end of a game the QML connecting back to the lobby was recently broken an
 Contributors:
 Past, present, and future.
 
-StewartTaylor
-JacobNeal
-Tpimp
-SaudMoh
-Tigereye504
-r-hurtado
-jared-smithype
-JLRaffaele
-AaronCostner
-LewisSanchez
+Clint Jellesed
 
-Inspiration:
-Although Chessgames.com has been one of the largest chess databases for a long time, it has lacked a play zone that allows users to play chess online against one another. This is the aim of this project.
+<br>**Installation Instructions**<br>
+To be determined. Will work more on installation properties as term progresses.
 
-License:
-The MIT License (MIT)
-Copyright (c) 2016 Chessgames LLC
+<br>**Contribution Guidelines**<br>
+Contributions are primarily by Russ Hurtado and Travis Miller. Should someone else desire to make changes they must contact one of us before making changes final and/or committing them. Commits should have a clear, concise title with any further information in the description.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+<br>**Bugs and TODO List**<br>
+There are currently no bugs since this project is still in the design phase. Our current list of items is to complete the design of this project and then start working on a desktop version of the application, making sure that simple things like menus and signing in work correctly. From there we will move to making the app function like it should, verifying that all clickable areas work and keeping the app looking clean. Once that works we will port it to mobile phones and work on whatever bugs may arise.
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+<br>**Contributor List**<br>
+Russ Hurtado<br>Travis Miller
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+<br>**Credits, Inspiration, Alternatives**<br>
+The idea for this application came from many other social media sites, such as Facebook, Instagram, Tumblr, and iFunny. To separate our application from the ones mentioned above, we wanted it to be more personal, but also carefree. We want our application to let users be parts of certain friend groups that aren't in the current social media sites. This means that friends may have certain "circles" that they are a part of, such as a "Nature" theme, or "Sports Car" theme. By adding these friend groups, they will get notifications when someone from that group uploads or rates a picture in that tagged section, allowing the user to then look at that picture and add their own rating and comment. 
+
+<br>**License**<br>
+MIT License.
