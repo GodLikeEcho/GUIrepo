@@ -1,7 +1,7 @@
 #FoodCart Tracker
 
 <br>**Logo:**<br>
-![Alt text](/img/foodtruck.JPG)
+![Alt text](/img/foodtruck.jpg)
 <br \>
 <br>**Description:**<br> 
 IOS application that allows user to log in and track food carts in Klamath Falls. The main paige will show a list of all the tracked food carts with options to change the sorting oder. The next tab will show a map with drop down pins for all of the foodcarts. another tab will be avaliable that tracks the users favorites, reviews etc.
