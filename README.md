@@ -9,12 +9,12 @@ Xcode
 <br>**Screenshots:**<br>
 <b>Home Page & Maps</b><br \><br \>
 <b>Qt solution</b><br \>
-![Alt text](/img/SHD1.PNG)
+![Alt text](/img/SHD1.JPG)
 <br \>
 
 <b>Screenshot of solution</b><br \><br \>
 <b>Loading Page & Profile</b><br \>
-![Alt text](/img/SHD2.PNG)
+![Alt text](/img/SHD2.JPG)
 <br \>
 
 
