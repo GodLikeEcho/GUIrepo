@@ -17,11 +17,19 @@ class SecondViewController: UIViewController {
             prefs.setBool(true, forKey: "ColorBlind")
             CBLabel.text = "Color Blind Enabled"
             self.view.backgroundColor = UIColor.whiteColor()
+            
+            let alert = UIAlertController(title: "Settings Saved", message: "Please restart application", preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
         }
         else {
             prefs.setBool(false, forKey: "ColorBlind")
             CBLabel.text = "Color Blind Disabled"
-            self.view.backgroundColor = UIColor.darkGrayColor()
+            self.view.backgroundColor = UIColor.lightGrayColor()
+            
+            let alert = UIAlertController(title: "Settings Saved", message: "Please restart application", preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
         }
     }
 
@@ -38,7 +46,7 @@ class SecondViewController: UIViewController {
         else {
             CBLabel.text = "Color Blind Disabled"
             CBSwitch.setOn(false, animated: true)
-            self.view.backgroundColor = UIColor.darkGrayColor()
+            self.view.backgroundColor = UIColor.lightGrayColor()
         }
         
     }

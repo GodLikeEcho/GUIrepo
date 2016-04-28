@@ -13,6 +13,16 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let prefs = NSUserDefaults.standardUserDefaults()
+        
+        if prefs.boolForKey("ColorBlind") {
+            self.view.backgroundColor = UIColor.whiteColor()
+        }
+        else {
+            self.view.backgroundColor = UIColor.lightGrayColor()
+        }
+
     }
 
     override func didReceiveMemoryWarning() {
