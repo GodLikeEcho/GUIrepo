@@ -12,6 +12,10 @@
 		F420FC561D0136160058E073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F420FC541D0136160058E073 /* Main.storyboard */; };
 		F420FC581D0136160058E073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F420FC571D0136160058E073 /* Assets.xcassets */; };
 		F420FC5B1D0136160058E073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F420FC591D0136160058E073 /* LaunchScreen.storyboard */; };
+		F420FC651D02118C0058E073 /* WildestDreams.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F420FC641D02118C0058E073 /* WildestDreams.mp3 */; };
+		F420FC671D02126B0058E073 /* StressedOut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F420FC661D02126B0058E073 /* StressedOut.mp3 */; };
+		F420FC691D0212D70058E073 /* ALittleFaster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F420FC681D0212D70058E073 /* ALittleFaster.mp3 */; };
+		F420FC6B1D0213960058E073 /* MeMyselfAndI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F420FC6A1D0213960058E073 /* MeMyselfAndI.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		F420FC571D0136160058E073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F420FC5A1D0136160058E073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F420FC5C1D0136160058E073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F420FC641D02118C0058E073 /* WildestDreams.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WildestDreams.mp3; sourceTree = "<group>"; };
+		F420FC661D02126B0058E073 /* StressedOut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StressedOut.mp3; sourceTree = "<group>"; };
+		F420FC681D0212D70058E073 /* ALittleFaster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ALittleFaster.mp3; sourceTree = "<group>"; };
+		F420FC6A1D0213960058E073 /* MeMyselfAndI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MeMyselfAndI.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		F420FC4F1D0136160058E073 /* IpodClassic */ = {
 			isa = PBXGroup;
 			children = (
+				F420FC641D02118C0058E073 /* WildestDreams.mp3 */,
+				F420FC6A1D0213960058E073 /* MeMyselfAndI.mp3 */,
+				F420FC681D0212D70058E073 /* ALittleFaster.mp3 */,
+				F420FC661D02126B0058E073 /* StressedOut.mp3 */,
 				F420FC501D0136160058E073 /* AppDelegate.swift */,
 				F420FC521D0136160058E073 /* ViewController.swift */,
 				F420FC541D0136160058E073 /* Main.storyboard */,
@@ -122,7 +134,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F420FC6B1D0213960058E073 /* MeMyselfAndI.mp3 in Resources */,
 				F420FC5B1D0136160058E073 /* LaunchScreen.storyboard in Resources */,
+				F420FC651D02118C0058E073 /* WildestDreams.mp3 in Resources */,
+				F420FC671D02126B0058E073 /* StressedOut.mp3 in Resources */,
+				F420FC691D0212D70058E073 /* ALittleFaster.mp3 in Resources */,
 				F420FC581D0136160058E073 /* Assets.xcassets in Resources */,
 				F420FC561D0136160058E073 /* Main.storyboard in Resources */,
 			);
@@ -286,6 +302,7 @@
 				F420FC611D0136160058E073 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
