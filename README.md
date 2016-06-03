@@ -1,10 +1,10 @@
-#FoodCart Tracker
+#Personal Profile
 
 <br>**Logo:**<br>
 ![Alt text](/img/foodtruck.jpg)
 <br \>
 <br>**Description:**<br> 
-IOS application that allows user to log in and track food carts in Klamath Falls. The main paige will show a list of all the tracked food carts with options to change the sorting oder. The next tab will show a map with drop down pins for all of the foodcarts. another tab will be avaliable that tracks the users favorites, reviews etc.
+IOS application that allows user to post messages in a custom table view. These posts will show the user prfile and and content that they entered in the text field. There will also be background music can can be toggled on and off along with a settings page to set the default music state and background color. These features are being implemented to fulfill the GUI requirements and practice specific techniques for my future Senior Project ideas.
 
 <br>**Technologies:**<br>
 Xcode
