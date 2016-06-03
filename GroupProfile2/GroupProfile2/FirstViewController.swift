@@ -9,7 +9,20 @@
 import UIKit
 import AVFoundation
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    @IBOutlet weak var tableView: UITableView!
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 3
+    }
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = self.tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! CustomCell
+        
+        //cell.photo.image = Image[indexPath.row]
+        //cell.textView.text = names[indexPath.row]
+        return cell
+    }
+    
     @IBAction func PausePlay(sender: UISegmentedControl) {
         if sender.selectedSegmentIndex == 0 {
             backgroundMusicPlayer.play()

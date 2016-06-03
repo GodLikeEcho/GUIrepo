@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F41D89BE1D00D94D00DA87B1 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D89BD1D00D94D00DA87B1 /* CustomCell.swift */; };
 		F48839171CD14C0C00A84586 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48839161CD14C0C00A84586 /* AppDelegate.swift */; };
 		F48839191CD14C0C00A84586 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48839181CD14C0C00A84586 /* FirstViewController.swift */; };
 		F488391B1CD14C0C00A84586 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488391A1CD14C0C00A84586 /* SecondViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F41D89BD1D00D94D00DA87B1 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCell.swift; path = ../CustomCell.swift; sourceTree = "<group>"; };
 		F48839131CD14C0C00A84586 /* GroupProfile2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupProfile2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48839161CD14C0C00A84586 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F48839181CD14C0C00A84586 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				F488394A1CD3DDEC00A84586 /* BGMusic2.mp3 */,
 				F48839161CD14C0C00A84586 /* AppDelegate.swift */,
 				F48839181CD14C0C00A84586 /* FirstViewController.swift */,
+				F41D89BD1D00D94D00DA87B1 /* CustomCell.swift */,
 				F488391A1CD14C0C00A84586 /* SecondViewController.swift */,
 				F488391C1CD14C0C00A84586 /* Main.storyboard */,
 				F488391F1CD14C0C00A84586 /* Assets.xcassets */,
@@ -269,6 +272,7 @@
 			files = (
 				F488391B1CD14C0C00A84586 /* SecondViewController.swift in Sources */,
 				F48839171CD14C0C00A84586 /* AppDelegate.swift in Sources */,
+				F41D89BE1D00D94D00DA87B1 /* CustomCell.swift in Sources */,
 				F48839191CD14C0C00A84586 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
